@@ -1,0 +1,13 @@
+@media(max-width:768px){
+  .container{
+    width:min(100% - 28px,var(--container-width));
+  }
+
+  .section{
+    padding:var(--section-padding-mobile) 0;
+  }
+
+  .section-header{
+    margin-bottom:40px;
+  }
+}

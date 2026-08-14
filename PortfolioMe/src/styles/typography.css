@@ -1,0 +1,50 @@
+.display{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:clamp(4rem,10vw,9rem);
+  font-weight:700;
+  line-height:.9;
+  letter-spacing:-.07em;
+}
+
+.heading-xl{
+  font-size:clamp(3rem,7vw,6rem);
+  line-height:.95;
+  letter-spacing:-.055em;
+}
+
+.heading-lg{
+  font-size:clamp(2.5rem,5vw,4.5rem);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+
+.heading-md{
+  font-size:clamp(1.8rem,3vw,2.8rem);
+  line-height:1.05;
+}
+
+.text-lg{
+  font-size:1.2rem;
+  line-height:1.7;
+}
+
+.text-md{
+  font-size:1rem;
+  line-height:1.6;
+}
+
+.text-sm{
+  font-size:.875rem;
+  line-height:1.5;
+}
+
+.text-muted{
+  color:var(--color-text-secondary);
+}
+
+.text-gradient{
+  background:var(--gradient-main);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}

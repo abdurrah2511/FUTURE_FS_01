@@ -1,0 +1,10 @@
+.page-layout{
+  position:relative;
+  min-height:100vh;
+  background:var(--color-bg);
+}
+
+.page-content{
+  position:relative;
+  min-height:100vh;
+}

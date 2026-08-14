@@ -1,0 +1,135 @@
+.contact-cta{
+  padding:140px 0;
+}
+
+.contact-cta-card{
+  position:relative;
+  min-height:600px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  padding:80px;
+  border-radius:var(--radius-xl);
+  background:var(--color-dark);
+  color:#fff;
+}
+
+.contact-cta-content{
+  position:relative;
+  z-index:2;
+  max-width:900px;
+  text-align:center;
+}
+
+.contact-cta .section-label{
+  color:rgba(255,255,255,.65);
+}
+
+.contact-cta h2{
+  margin-top:25px;
+  font-size:clamp(3.5rem,8vw,8rem);
+  line-height:.9;
+  letter-spacing:-.07em;
+  font-weight:800;
+}
+
+.contact-cta h2 span{
+  background:linear-gradient(
+    90deg,
+    #ff6ec7,
+    #a855f7,
+    #38bdf8
+  );
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+.contact-cta p{
+  max-width:600px;
+  margin:35px auto 0;
+  color:rgba(255,255,255,.68);
+  line-height:1.8;
+}
+
+.contact-cta-button{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  margin-top:40px;
+  padding:16px 24px;
+  border-radius:999px;
+  background:#fff;
+  color:#111;
+  font-weight:700;
+  transition:
+    transform .3s ease,
+    gap .3s ease;
+}
+
+.contact-cta-button:hover{
+  transform:translateY(-3px);
+  gap:15px;
+}
+
+.contact-cta-glow{
+  position:absolute;
+  width:500px;
+  height:500px;
+  border-radius:50%;
+  filter:blur(100px);
+  opacity:.35;
+  pointer-events:none;
+}
+
+.contact-cta-glow-one{
+  top:-200px;
+  left:-100px;
+  background:#ec4899;
+}
+
+.contact-cta-glow-two{
+  right:-100px;
+  bottom:-250px;
+  background:#8b5cf6;
+}
+
+@media(max-width:768px){
+  .contact-cta{
+    padding:100px 0;
+  }
+
+  .contact-cta-card{
+    min-height:520px;
+    padding:50px 25px;
+    border-radius:var(--radius-lg);
+  }
+
+  .contact-cta h2{
+    font-size:clamp(3rem,14vw,5rem);
+  }
+
+  .contact-cta p{
+    font-size:.9rem;
+  }
+}
+
+@media(max-width:480px){
+  .contact-cta{
+    padding:80px 0;
+  }
+
+  .contact-cta-card{
+    min-height:500px;
+    padding:40px 20px;
+  }
+
+  .contact-cta h2{
+    font-size:3rem;
+  }
+
+  .contact-cta-button{
+    padding:14px 20px;
+  }
+}

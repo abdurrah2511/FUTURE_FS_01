@@ -1,0 +1,67 @@
+.project-details-page{
+  position:relative;
+  min-height:100vh;
+  overflow:hidden;
+}
+
+.project-details-hero{
+  min-height:70svh;
+  display:flex;
+  align-items:center;
+  padding-top:140px;
+}
+
+.project-details-hero .container{
+  max-width:1100px;
+}
+
+.project-details-hero h1{
+  margin-top:14px;
+  font-size:clamp(4rem,9vw,9rem);
+  line-height:.9;
+  letter-spacing:-.07em;
+}
+
+.project-details-hero p{
+  max-width:700px;
+  margin-top:30px;
+  color:var(--color-text-secondary);
+  font-size:1.15rem;
+  line-height:1.8;
+}
+
+.project-not-found{
+  min-height:70vh;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+}
+
+.project-not-found h1{
+  font-size:3rem;
+}
+
+.project-not-found a{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:24px;
+  color:var(--color-text);
+  font-weight:700;
+}
+
+@media(max-width:768px){
+  .project-details-hero{
+    min-height:65svh;
+    padding-top:120px;
+  }
+
+  .project-details-hero h1{
+    font-size:4rem;
+  }
+
+  .project-details-hero p{
+    font-size:1rem;
+  }
+}

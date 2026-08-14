@@ -1,0 +1,40 @@
+.about-intro-grid{
+  display:grid;
+  grid-template-columns:.8fr 1.2fr;
+  gap:100px;
+  align-items:start;
+}
+
+.about-intro-heading{
+  position:sticky;
+  top:140px;
+}
+
+.about-intro-content{
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+}
+
+.about-intro-content p{
+  color:var(--color-text-secondary);
+  font-size:1.15rem;
+  line-height:1.8;
+}
+
+@media(max-width:900px){
+  .about-intro-grid{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .about-intro-heading{
+    position:static;
+  }
+}
+
+@media(max-width:768px){
+  .about-intro-content p{
+    font-size:1rem;
+  }
+}

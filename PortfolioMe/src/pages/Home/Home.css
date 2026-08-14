@@ -1,0 +1,21 @@
+.home-page{
+  position:relative;
+  width:100%;
+  overflow:hidden;
+}
+
+.home-page section{
+  position:relative;
+}
+
+@media(max-width:1024px){
+  .home-page{
+    overflow-x:hidden;
+  }
+}
+
+@media(max-width:768px){
+  .home-page{
+    overflow-x:hidden;
+  }
+}
